@@ -1,0 +1,11 @@
+.projectWrapper {
+}
+
+.title {
+	margin: auto;
+	text-align: center;
+	font-size: 35px;
+}
+
+@media (max-width: 800px) {
+}

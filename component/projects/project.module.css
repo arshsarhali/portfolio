@@ -1,0 +1,144 @@
+.projectContainer {
+	margin: auto;
+	margin-top: 80px;
+	width: 800px;
+	height: 450px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 2fr 3fr 4fr 2fr;
+}
+
+.header {
+	font-size: 25px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: var(--lightest-navy);
+}
+.tech {
+	color: var(--green);
+	margin-bottom: 10px;
+}
+.description {
+	margin-bottom: 5px;
+	color: var(--light-navy);
+}
+.imgWrapper {
+	background-color: var(--dark-green);
+	cursor: pointer;
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+
+.imgWrapperLeft {
+	grid-column-start: 1;
+	grid-column-end: 5;
+}
+
+.imgWrapperRight {
+	grid-column-start: -1;
+	grid-column-end: -5;
+}
+.imgOpacity {
+	opacity: 0.4;
+}
+
+.imgOpacity :hover {
+	opacity: 0.7;
+}
+.textWrapper {
+	text-align: center;
+	background-color: var(--darkest-navy);
+	padding: 10px;
+	z-index: 1;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.textWrapperRight {
+	grid-column-start: -1;
+	grid-column-end: -4;
+	padding-left: 40px;
+	border-radius: 100px 0 0 100px;
+}
+
+.textWrapperLeft {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	padding-right: 40px;
+	border-radius: 0 100px 100px 0;
+}
+
+.icon {
+	grid-row-start: -3;
+	grid-row-end: -1;
+	margin: 20px auto;
+}
+
+.iconRight {
+	grid-column-start: 5;
+	grid-column-end: 7;
+}
+
+.iconLeft {
+	grid-column-start: -5;
+	grid-column-end: -7;
+}
+.gitBtn {
+	background: var(--light-green);
+	border-radius: 999px;
+	box-shadow: var(--light-green) 0 10px 20px -10px;
+	box-sizing: border-box;
+	color: var(--lightest-navy);
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	opacity: 1;
+	outline: 0 solid transparent;
+	padding: 8px 18px;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	width: fit-content;
+	word-break: break-word;
+	border: 0;
+	margin: 10px;
+}
+
+.gitBtn:hover {
+	background: var(--dark-green);
+	box-shadow: var(--dark-green) 0 10px 20px -10px;
+}
+
+.demoBtn {
+	background: var(--blue);
+	border-radius: 999px;
+	box-shadow: var(--blue) 0 10px 20px -10px;
+	box-sizing: border-box;
+	color: var(--lightest-navy);
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	opacity: 1;
+	outline: 0 solid transparent;
+	padding: 8px 18px;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	width: fit-content;
+	word-break: break-word;
+	border: 0;
+	margin: 10px;
+}
+
+.demoBtn:hover {
+	box-shadow: var(--dark-blue) 0 10px 20px -10px;
+	background: var(--dark-blue);
+}
+.header {
+	display: block;
+}
+
+@media (max-width: 800px) {
+}

@@ -1,0 +1,102 @@
+.container {
+	display: block;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.textWrapper {
+	display: block;
+	z-index: 1;
+	text-align: center;
+}
+.text1 {
+	color: #64ffda;
+	font-size: 20px;
+}
+.text2 {
+	color: #ccd6f6;
+	font-size: 40px;
+}
+.text3 {
+	color: var(--light-navy);
+	font-size: 35px;
+}
+.text4 {
+	display: inline-block;
+	margin-top: 15px;
+	color: var(--light-navy);
+	line-height: 22px;
+}
+
+.squareRight {
+	position: absolute;
+	background-color: var(--dark-navy);
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	-webkit-animation: rescale-right 10s infinite;
+	animation: rescale-right 10s infinite linear;
+}
+
+.squareRight2 {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	background-color: var(--navy);
+	width: 360px;
+	height: 360px;
+	margin: auto;
+	-webkit-animation: rescale-left 5s infinite;
+	animation: rescale-left 5s infinite linear;
+}
+
+@-webkit-keyframes rescale-right {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rescale-right {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rescale-left {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(-360deg);
+	}
+}
+
+@keyframes rescale-left {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-360deg);
+	}
+}
+
+.squareRight:hover {
+	background-color: var(--darkest-navy);
+}
+.squareRight2:hover {
+	background-color: var(--dark-navy);
+}
