@@ -1,0 +1,89 @@
+.contanier {
+	margin-top: 100px;
+	margin: auto;
+	max-width: 800px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 50px;
+}
+.email {
+	margin-top: 30px;
+	text-align: center;
+}
+.emailText:hover {
+	color: var(--dark-green);
+}
+.emailHeading {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: var(--lightest-navy);
+}
+.emailText {
+	font-size: 20px;
+	color: var(--green);
+}
+
+.contactForm {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.contactFormHeading {
+	color: var(--lightest-navy);
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.labelText {
+	color: var(--lightest-navy);
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.inputField {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	color: var(--dark-navy);
+	border: 1px solid var(--light-navy);
+	width: 60%;
+	padding: 10px;
+
+	border-radius: 4px;
+	background-color: var(--lightest-navy);
+	resize: vertical;
+}
+.submitBtn {
+	background: var(--blue);
+	border-radius: 999px;
+	box-shadow: var(--blue) 0 10px 20px -10px;
+	box-sizing: border-box;
+	color: var(--lightest-navy);
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	opacity: 1;
+	outline: 0 solid transparent;
+	padding: 8px 18px;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	width: fit-content;
+	word-break: break-word;
+	border: 0;
+}
+.submitBtn:hover {
+	box-shadow: var(--dark-blue) 0 10px 20px -10px;
+	background: var(--dark-blue);
+}
+
+.response {
+	color: var(--green);
+	padding: 20px;
+}
+
+@media (max-width: 800px) {
+	.contanier {
+		grid-template-columns: 1fr;
+		margin-bottom: 50px;
+	}
+}

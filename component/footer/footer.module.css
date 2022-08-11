@@ -1,0 +1,11 @@
+.container {
+	padding: 7px;
+	margin: auto;
+	display: block;
+	background-color: var(--darkest-navy);
+}
+.textWrapper {
+	text-align: center;
+	color: var(--lightest-navy);
+	font-size: 20px;
+}

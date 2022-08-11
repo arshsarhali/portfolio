@@ -26,7 +26,8 @@ const Project = ({
 							<Image
 								src={imgSrc}
 								width={600}
-								height={505}
+								height={507}
+								layout='responsive'
 								alt='Prime Clothging screenshot'
 								className={styles.image}
 							/>

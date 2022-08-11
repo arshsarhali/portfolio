@@ -16,11 +16,11 @@
 	text-align: center;
 }
 .text1 {
-	color: #64ffda;
+	color: var(--green);
 	font-size: 20px;
 }
 .text2 {
-	color: #ccd6f6;
+	color: var(--lightest-navy);
 	font-size: 40px;
 }
 .text3 {

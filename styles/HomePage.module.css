@@ -1,11 +1,10 @@
-.projectWrapper {
-}
-
 .title {
 	margin: auto;
 	text-align: center;
 	font-size: 35px;
+	color: var(--green);
 }
 
-@media (max-width: 800px) {
+.contactWrapper {
+	margin-top: 100px;
 }

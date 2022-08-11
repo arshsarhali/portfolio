@@ -20,4 +20,10 @@
 	font-size: 20px;
 	font-weight: 300;
 	padding: 0.7rem;
+	cursor: pointer;
+	color: var(--lightest-navy);
+}
+
+.container li:hover {
+	color: var(--light-navy);
 }
